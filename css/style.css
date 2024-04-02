@@ -4,3 +4,59 @@
     margin: 0;
     padding: 0;
 }
+
+/*header*/
+
+header{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*fine header*/
+
+/*main*/
+
+/*fine main*/
+
+/*footer*/
+
+/*fine footer*/
+
+/*container e row*/
+
+.row{
+    display: flex;
+}
+
+.container-full{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*fine container*/
+
+/*colonne*/
+
+.col-50{
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+/*fine colonne*/
+
+/*classi di utility*/
+
+.align-l{
+    justify-content: left;
+    align-items: center;
+}
+
+.align-r{
+    justify-content: right;
+    align-items: center;
+}
+
+/*fine classi di utility*/
