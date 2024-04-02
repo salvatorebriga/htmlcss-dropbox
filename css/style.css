@@ -108,4 +108,8 @@ header{
     align-items: center;
 }
 
+.bg-aqua{
+    background-color: aqua;
+}
+
 /*fine classi di utility*/
