@@ -9,8 +9,55 @@
 
 header{
     width: 100%;
-    background-color: black;
 }
+
+
+.logo{
+    margin-right: 60px;
+}
+
+.logo-ul{
+    list-style-type: none;
+}
+
+.logo-ul > li > a{
+    text-decoration: none;
+    color: #5f5f5f;
+    margin-right: 30px;
+}
+
+.logo-ul > li > a:hover{
+    text-decoration:underline;
+}
+
+.button-ul{
+    list-style-type: none;
+}
+
+.button-ul > li > a{
+    text-decoration: none;
+    color: #5f5f5f;
+    margin-left: 30px;
+}
+
+.button-ul > li > a:hover{
+    text-decoration:underline;
+}
+
+.blue-button{
+    padding: 5px 10px;
+    margin-left: 30px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.blue-button:hover{
+    background-color: #0062ffc4;
+}
+
 
 
 /*fine header*/
@@ -33,28 +80,21 @@ footer{
 .row{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(255, 0, 0);
-    padding: 1px;
 }
 
 .container-full{
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    padding: 5px;
+    padding: 20px;
 }
 
 .container-70{
     width: 70%;
     margin: 0 auto;
-    background-color: rgb(217, 0, 255);
-    padding: 5px;
 }
 
 .container-60{
     width: 60%;
     margin: 0 auto;
-    background-color: rgb(242, 255, 0);
-    padding: 5px;
 }
 
 /*fine container*/
@@ -63,52 +103,30 @@ footer{
 
 .col-100{
     width: calc(100% - 10px);
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
 }
 
 .col-50{
-    width: calc(50% - 10px);
-    height: 50px;
-    background-color: rgb(168, 165, 116);
-    margin: 5px;
+    width: calc(100% / 2 - 10px);
 }
 
 .col-50-square{
-    width: calc(50% - 10px);
-    height: 50px;
-    background-color: rgb(116, 168, 123);
-    margin: 5px;
+    width: calc(100% / 2 - 10px);
 }
 
 .col-60{
     width: calc(60% - 10px);
-    height: 250px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
 }
 
 .col-40{
     width: calc(40% - 10px);
-    height: 250px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
 }
 
 .col-33{
-    width: calc(33.3% - 10px);
-    height: 250px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
-    padding: 1px;
+    width: calc(100% / 3 - 10px);
 }
 
 .col-20{
-    width: calc(20% - 10px);
-    height: 250px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
+    width: calc(100% / 5 - 10px);
 }
 
 /*fine colonne*/
@@ -131,7 +149,7 @@ footer{
 }
 
 .bg-aqua{
-    background-color: aqua;
+    background-color: #b4d0e7;
 }
 
 /*fine classi di utility*/
