@@ -167,6 +167,21 @@ h1{
 
 .content-partner-p > p{
     font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.white-button{
+    padding: 15px 30px;
+    background-color: white;
+    border: 0.5px solid gray;
+    font-size: 17px;
+    color: gray;
+}
+
+.white-button:hover{
+    background-color: #0061ff;
+    border: 0.5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 /*fine main*/
