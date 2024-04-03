@@ -1,5 +1,5 @@
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -100,8 +100,56 @@ h1{
     margin-bottom: 70px;
 }
 
+.content-radio{
+    padding-bottom: 100px;
+}
+
 .content-radio > label{
     margin-right: 50px;
+}
+
+.card-head{
+    padding: 10px;
+}
+
+.user{
+    width: 13px;
+}
+
+.team{
+    width: 16px;
+}
+
+.enterprise{
+    width: 13px;
+}
+
+.card-content{
+    padding: 40px 40px;
+}
+
+.card-content > h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card-content > h4{
+    margin-bottom: 25px;
+}
+
+.icons{
+    width: 14px;
+}
+
+.checkmark{
+    filter: brightness(0) saturate(100%) invert(33%) sepia(58%) saturate(7480%) hue-rotate(212deg) brightness(99%) contrast(109%);
+    width: 15px;
+}
+
+.card-hr{
+    width: 20%;
+    color: lightgray;
+    margin-bottom: 50px;
 }
 
 /*fine main*/
@@ -157,7 +205,8 @@ footer{
 }
 
 .col-33{
-    width: calc(100% / 3);
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
 }
 
 .col-25{
@@ -174,7 +223,8 @@ footer{
 
 .flex{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .align-l{
@@ -191,6 +241,10 @@ footer{
     background-color: #b4d0e7;
 }
 
+.gray{
+    color: gray;
+}
+
 .py-top120{
     padding-top: 120px;
 }
@@ -199,12 +253,44 @@ footer{
     margin-left: 30px;
 }
 
+.mrg-bottom{
+    margin-bottom: 50px;
+}
+
+.mrg-bottom20{
+    margin-bottom: 20px;
+}
+
+.mrg-right10{
+    margin-right: 10px;
+}
+
+.mrg-bottom80{
+    margin-bottom: 80px;
+}
+
+.mrg-bottom50{
+    margin-bottom: 50px;
+}
+
 .py-button{
     padding: 10px 10px;
 }
 
 .txt-alg-c{
     text-align: center;
+}
+
+.min-h{
+    min-height: 1000px;
+}
+
+.border{
+    border: 0.5px solid lightgray;
+}
+
+.border-bottom{
+    border-bottom: 0.5px solid lightgray;
 }
 
 /*fine classi di utility*/
