@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    padding: 20px;
+    padding: 22px;
 }
 
 
@@ -19,15 +19,12 @@ header{
 
 .logo-ul{
     list-style-type: none;
+    gap: 40px;
 }
 
 .logo-ul > li > a{
     text-decoration: none;
     color: #5f5f5f;
-}
-
-.logo-ul > li:not(:last-child){
-    margin-right: 30px;
 }
 
 .logo-ul > li > a:hover{
@@ -36,15 +33,12 @@ header{
 
 .button-ul{
     list-style-type: none;
+    gap: 40px;
 }
 
 .button-ul > li > a{
     text-decoration: none;
     color: #5f5f5f;
-}
-
-.button-ul > li:not(:first-child){
-    margin-left: 30px;
 }
 
 .button-ul > li > a:hover{
@@ -53,7 +47,6 @@ header{
 
 .blue-button{
     padding: 5px 10px;
-    margin-left: 30px;
     background-color: #0061ff;
     color: white;
     border: none;
@@ -70,6 +63,46 @@ header{
 /*fine header*/
 
 /*main*/
+
+h1{
+    font-size: 75px;
+    font-weight:900;
+}
+
+.content-p1{
+    padding-top: 65px;
+    padding-right: 130px;
+    font-size: 17px;
+}
+
+.content-p1 > p{
+    margin-bottom: 30px;
+}
+
+.content-p1 > button{
+    margin-bottom: 30px;
+}
+
+.content-p1 > img{
+    margin-top: 40px;
+    width: 12%;
+}
+
+.content-img-jumbo > img{
+    width: 100%;
+    position: relative;
+    top: 65px;
+    right: 100px;
+}
+
+.content-h2 > h2{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.content-radio > label{
+    margin-right: 50px;
+}
 
 /*fine main*/
 
@@ -108,27 +141,31 @@ footer{
 }
 
 .col-50{
-    width: calc(100% / 2 - 10px);
+    width: calc(100% / 2);
 }
 
 .col-50-square{
-    width: calc(100% / 2 - 10px);
+    width: calc(100% / 2);
 }
 
 .col-60{
-    width: calc(60% - 10px);
+    width: calc(60%);
 }
 
 .col-40{
-    width: calc(40% - 10px);
+    width: calc(40%);
 }
 
 .col-33{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3);
+}
+
+.col-25{
+    width: 25%;
 }
 
 .col-20{
-    width: calc(100% / 5 - 10px);
+    width: calc(100% / 5);
 }
 
 /*fine colonne*/
@@ -152,6 +189,22 @@ footer{
 
 .bg-aqua{
     background-color: #b4d0e7;
+}
+
+.py-top120{
+    padding-top: 120px;
+}
+
+.mrg-left{
+    margin-left: 30px;
+}
+
+.py-button{
+    padding: 10px 10px;
+}
+
+.txt-alg-c{
+    text-align: center;
 }
 
 /*fine classi di utility*/
