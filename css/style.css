@@ -179,7 +179,7 @@ header{
         margin-bottom: 60px;
     }
 
-    .white-button{
+    .transparent-button{
         padding: 15px 30px;
         background-color: white;
         border: 0.5px solid gray;
@@ -187,7 +187,7 @@ header{
         color: gray;
     }
 
-    .white-button:hover{
+    .transparent-button:hover{
         background-color: #0061ff;
         border: 0.5px solid rgb(255, 255, 255);
         color: rgb(255, 255, 255);
@@ -267,6 +267,62 @@ header{
 
 /*square class*/
 
+/*free trial class*/
+
+    .content-trial{
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-right: 50px;
+        color: #6b1f41;
+    }
+
+    .content-trial-button{
+        padding-top: 175px;
+        padding-left: 200px;
+    }
+
+    .white-button{
+        padding: 15px;
+        width: 350px;
+        font-size: 17px;
+        border: none;
+        background-color: white;
+    }
+
+    .white-button:hover{
+        background-color: #0061ff;
+        color: white;
+    }
+
+/*free trial class*/
+
+/*faq*/
+
+    .content-faq{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content-faq > h2{
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .content-faq-arrow{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content-faq-arrow > i:hover{
+        transform: rotate(180deg);
+    }
+
+/*faq*/
+
 /*fine main*/
 
 /*footer*/
@@ -328,7 +384,7 @@ footer{
 }
 
 .col-20{
-    width: calc(100% / 5);
+    width: 20%;
 }
 
 /*fine colonne*/
@@ -419,6 +475,18 @@ footer{
     padding: 10px 10px;
 }
 
+.padding-bottom10{
+    padding-bottom: 45px;
+}
+
+.padding-top10{
+    padding-top: 45px;
+}
+
+.padding-bottom30{
+    padding-bottom: 30px;
+}
+
 /*margin top*/
 
 .margin-top50{
@@ -464,6 +532,15 @@ footer{
 .border-bottom{
     border-bottom: 0.5px solid lightgray;
 }
+
+.border-top-strong{
+    border-top: 1px solid gray;
+}
+
+.border-bottom-strong{
+    border-bottom: 1px solid gray;
+}
+
 
 .min-h{
     min-height: 1000px;
