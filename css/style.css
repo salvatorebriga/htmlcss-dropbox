@@ -101,7 +101,7 @@ h1{
 }
 
 .content-radio{
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .content-radio > label{
@@ -152,6 +152,23 @@ h1{
     margin-bottom: 50px;
 }
 
+.content-partner-img > img{
+    width: 600px;
+}   
+
+.content-partner-p{
+    padding-top: 70px;
+    padding-right: 130px;
+}
+
+.content-partner-p > h2{
+    margin-bottom: 30px;
+}
+
+.content-partner-p > p{
+    font-size: 18px;
+}
+
 /*fine main*/
 
 /*footer*/
@@ -176,7 +193,7 @@ footer{
 }
 
 .container-60{
-    width: 60%;
+    width: calc(60%);
     margin: 0 auto;
 }
 
@@ -185,7 +202,16 @@ footer{
 /*colonne*/
 
 .col-100{
-    width: calc(100% - 10px);
+    width: calc(100%);
+}
+
+.col-100-50{
+    margin: 0 auto;
+    width: calc(100% - 50px);
+}
+
+.col-80{
+    width: 80%;
 }
 
 .col-50{
@@ -196,6 +222,11 @@ footer{
     width: calc(100% / 2);
 }
 
+.col-60-50{
+    margin: 0 auto;
+    width: calc(60% - 50px);
+}
+
 .col-60{
     width: calc(60%);
 }
@@ -204,9 +235,14 @@ footer{
     width: calc(40%);
 }
 
+.col-40-50{
+    margin: 0 auto;
+    width: calc(40% - 50px);
+}
+
 .col-33{
-    margin: 20px;
-    width: calc(100% / 3 - 40px);
+    margin: 25px;
+    width: calc(100% / 3 - 50px);
 }
 
 .col-25{
@@ -261,6 +297,10 @@ footer{
     margin-bottom: 20px;
 }
 
+.mrg-bottom30{
+    margin-bottom: 30px;
+}
+
 .mrg-right10{
     margin-right: 10px;
 }
@@ -275,6 +315,10 @@ footer{
 
 .py-button{
     padding: 10px 10px;
+}
+
+.py-right250{
+    padding-right: 250px;
 }
 
 .txt-alg-c{
