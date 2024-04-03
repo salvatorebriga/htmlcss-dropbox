@@ -229,17 +229,13 @@ header{
     .small-square{
         width: calc(100% / 2);
         height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .content-square{
         width: 100%;
         height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        place-items: center;
     }
 
     .content-square > img{
@@ -330,6 +326,37 @@ header{
 footer{
     width: 100%;
     background-color: black;
+    color: white;
+}
+
+.foot-list > li{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.foot-list > li > h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.foot-list > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot-list > li > a:hover{
+    text-decoration: underline;
+}
+
+.content-foot2{
+    justify-content: left;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hr-foot{
+    width: 20%;
 }
 
 /*fine footer*/
@@ -409,6 +436,11 @@ footer{
     align-items: center;
 }
 
+.align-c{
+    justify-content: left;
+    align-items: center;
+}
+
 .txt-alg-c{
     text-align: center;
 }
@@ -451,6 +483,10 @@ footer{
 
 .gray{
     color: gray;
+}
+
+.gray-filter{
+    filter: brightness(0) saturate(100%) invert(49%) sepia(30%) saturate(0%) hue-rotate(191deg) brightness(95%) contrast(94%);
 }
 
 /*padding*/
